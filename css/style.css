@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,400;0,8..144,500;1,8..144,400&display=swap');
+html {
+    font-size: 70%;
+}
+
+
+
+
+
+/* etiquetas */
+
+
+
+body{
+    background-color: rgb(232, 234, 225);
+}
+
+h1{
+    color:chocolate;
+    font-size: 4em;
+    font-family: 'Roboto Serif', serif;
+    font-weight: 500px;    
+    padding: 100px;
+       
+    
+   
+  
+    
+
+}
+
+h2{
+    color: magenta;
+    font-size: 3em;
+    font-family: 'Roboto Serif', serif;
+    font-weight: 400;
+    padding: 50px;
+}
+
+p{
+    color: crimson;
+    font-size: 1.5em;
+    font-family: 'Roboto Serif', serif;
+    font-weight: 400;
+    line-height: 2em;
+    padding: 50px;
+    
+}
+
+
+h3{
+    color: rgb(7, 7, 7);
+    font-size: 5em;
+    font-family: 'Roboto Serif', serif;
+    font-weight: 400;
+    padding: 50px;
+    font-weight: bolder;
+    
+}
+
+
+label{
+    color: blue;
+}
+
+
+
+form{
+
+    padding: 50px;
+    font-size: 1.5em;
+}
+
+footer{
+
+    background-color: aqua;
+    padding: 100px;
+}
+
+
+
+/* selectores de clases */
+
+.text-left{
+        text-align: left;
+
+}
+
+.text-center{
+        text-align: center;
+}
+
+.text-right{
+        text-align: right;
+
+}
+
+.navtop{
+
+    font-size: 3em;
+}
+
+   
+
+
+
+
+    /* productos */
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+   
+
+
+.titulo{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Roboto Serif', serif;
+}
+
+
+
+.text{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto Serif', serif;
+}
+
+.comprarahora{
+    background-color: rgb(209, 140, 140);
+    font-weight: bold;
+    font-size: 25px;
+    margin: 30px;
+    
+    
+
+
+}
+
+.productos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 200px;
+    row-gap: 200px;
+    
+    
+    
+
+}
+
+
+
+.navfooter{
+    text-align: right;
+    background-color: aqua;
+    font-size: 1em;
+}
+
+
+
+
+
+/* selectores de ID */
+
+
+
+
+
+
+
