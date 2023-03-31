@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,400;0,8..144,500;1,8..144,400&display=swap');
 html {
-    font-size: 70%;
+    font-size: 100%;
 }
 
 
@@ -136,7 +136,7 @@ footer{
 }
 
 .comprarahora{
-    background-color: rgb(209, 140, 140);
+    background-color: turquoise;
     font-weight: bold;
     font-size: 25px;
     margin: 30px;
@@ -149,8 +149,9 @@ footer{
 .productos{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 200px;
-    row-gap: 200px;
+    gap: 10px;
+    padding: 200px;
+   
     
     
     
@@ -166,9 +167,62 @@ footer{
 }
 
 
+/* css de tarjetas */
+
+
+.tarjeta{
+    display: flex;
+    width: 920px;
+    height: auto;
+    margin: 30px auto;
+}
+.box{
+    width: 32%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin-right: 1%;
+    background: white;
+    border-radius: 10px;
+    transition: 0.9;
+    background-color: lightcoral;
+}
+.box:hover{
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.5);
+    cursor: pointer;
+}
 
 
 
+p{
+    font-size: 15px;
+    padding: 0 5px;
+}
+@media (max-width: 800px){
+    .tarjeta{
+        width: 100%;
+    }
+
+    h1{ width: 100%;
+    font-size: 2em;}
+    h2{ width: 100%;
+        font-size: 2em;}
+        h3{ width: 100%;
+            font-size: 2em;}
+        }
+   
+
+
+
+@media (max-width: 600px){
+    .tarjeta{
+        width: 85%;
+        display: block;
+    }
+    .box{
+        width: 100%;
+        margin-bottom: 4%;
+    }
+}
 /* selectores de ID */
 
 
