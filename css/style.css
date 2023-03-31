@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,400;0,8..144,500;1,8..144,400&display=swap');
+
+
 html {
     font-size: 100%;
 }
@@ -55,7 +57,8 @@ h3{
     font-weight: 400;
     padding: 50px;
     font-weight: bolder;
-    
+    font-family: sans-serif;
+    text-align: center;
 }
 
 
@@ -105,16 +108,7 @@ footer{
 
 
 
-    /* productos */
-
-
-
-
-
-
-
-
-    
+     
     
     
     
@@ -135,30 +129,9 @@ footer{
     font-family: 'Roboto Serif', serif;
 }
 
-.comprarahora{
-    background-color: turquoise;
-    font-weight: bold;
-    font-size: 25px;
-    margin: 30px;
-    
-    
 
 
-}
-
-.productos{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
-    padding: 200px;
    
-    
-    
-    
-
-}
-
-
 
 .navfooter{
     text-align: right;
@@ -175,6 +148,7 @@ footer{
     width: 920px;
     height: auto;
     margin: 30px auto;
+    gap: 50px;
 }
 .box{
     width: 32%;
@@ -182,13 +156,26 @@ footer{
     border: 1px solid #ccc;
     margin-right: 1%;
     background: white;
-    border-radius: 10px;
+    border-radius: 30px;
     transition: 0.9;
     background-color: lightcoral;
+    
 }
 .box:hover{
     box-shadow: 0 0 11px rgba(33, 33, 33, 0.5);
     cursor: pointer;
+}
+
+.comprarahora{
+    background-color: turquoise;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 30px;
+    border-radius: 30px;
+    
+
+
+
 }
 
 
@@ -202,10 +189,12 @@ p{
         width: 100%;
     }
 
+
+
     h1{ width: 100%;
     font-size: 2em;}
     h2{ width: 100%;
-        font-size: 2em;}
+        font-size: 1.8em;}
         h3{ width: 100%;
             font-size: 2em;}
         }
