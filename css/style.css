@@ -61,6 +61,16 @@ h3{
     text-align: center;
 }
 
+h6{
+    text-align: center;
+    font-size: 3em;
+    color: blue;
+    font-weight: 700;
+    background-color: rgb(185, 179, 168);
+    padding: 200px;
+    
+}
+
 
 label{
     color: blue;
@@ -140,7 +150,7 @@ footer{
 }
 
 
-/* css de tarjetas */
+/* tarjetas */
 
 
 .tarjeta{
@@ -149,6 +159,7 @@ footer{
     height: auto;
     margin: 30px auto;
     gap: 50px;
+    
 }
 .box{
     width: 32%;
@@ -184,9 +195,19 @@ p{
     font-size: 15px;
     padding: 0 5px;
 }
+
+
+.margin{
+
+    margin: 250px;
+}
+
+
+
 @media (max-width: 800px){
     .tarjeta{
         width: 100%;
+        margin: auto;
     }
 
 
@@ -195,23 +216,35 @@ p{
     font-size: 2em;}
     h2{ width: 100%;
         font-size: 1.8em;}
-        h3{ width: 100%;
+    h3{ width: 100%;
             font-size: 2em;}
+    h6{width:100%;
+        font-size: 1.5em}
         }
+
    
 
 
 
 @media (max-width: 600px){
     .tarjeta{
-        width: 85%;
+        width: 50%;
         display: block;
+        margin: auto;
+    }
+
+    .tarjeta img{
+        width: 100%;
     }
     .box{
         width: 100%;
         margin-bottom: 4%;
     }
 }
+
+
+
+
 /* selectores de ID */
 
 
