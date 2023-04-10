@@ -1,0 +1,48 @@
+/* tarjetas con nesting*/
+
+
+.tarjeta{
+    display: flex;
+    width: 920px;
+    height: auto;
+    margin: 30px auto;
+    gap: 50px;
+    
+}
+.box{
+    width: 32%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin-right: 1%;
+    background: white;
+    border-radius: 30px;
+    transition: 0.9;
+    background-color: lightcoral;
+    
+}
+.box:hover{
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.5);
+    cursor: pointer;
+}
+
+.comprarahora{
+    background-color: turquoise;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 30px;
+    border-radius: 30px;
+   
+}
+
+
+
+p{
+    font-size: 15px;
+    padding: 0 5px;
+}
+
+
+.margin{
+
+    margin: 250px;
+}
