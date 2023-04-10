@@ -1,7 +1,43 @@
 /* imports */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,400;0,8..144,500;1,8..144,400&display=swap');
 @import "_vars";
+@import "_mixins";
 @import "_commons";
 @import "_nav";
 @import "_productos";
 
+
+@media (max-width: 800px){
+    .tarjeta{
+        width: 100%;
+        margin: auto;
+    }
+
+
+
+    h1{ width: 100%;
+    font-size: 2em;}
+    h2{ width: 100%;
+        font-size: 1.8em;}
+    h3{ width: 100%;
+            font-size: 2em;}
+    h6{width:100%;
+        font-size: 1.5em}
+        }
+
+@media (max-width: 600px){
+            .tarjeta{
+                width: 50%;
+                display: block;
+                margin: auto;
+            }
+        
+            .tarjeta img{
+                width: 100%;
+            }
+            .box{
+                width: 100%;
+                margin-bottom: 4%;
+            }
+        }
+        

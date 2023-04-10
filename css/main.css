@@ -3,6 +3,8 @@
 /* variales globales */
 /* colores */
 /* fonts */
+/* maps */
+/* paleta de colores  */
 /* titulos */
 html {
   font-size: 100%;
@@ -66,6 +68,31 @@ footer {
   padding: 100px;
 }
 
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* resoluciones de celular */
+/* navtop */
+.navtop {
+  font-size: 3em;
+}
+
+/* navfooter */
+.navfooter {
+  text-align: right;
+  background-color: aqua;
+  font-size: 1em;
+}
+
 /* boton de subir  */
 .subir {
   height: 40px;
@@ -78,41 +105,6 @@ footer {
   text-align: center;
   line-height: 40px;
   font-size: 25px;
-}
-
-/* resoluciones de celular */
-@media (max-width: 800px) {
-  .tarjeta {
-    width: 100%;
-    margin: auto;
-  }
-  h1 {
-    width: 100%;
-    font-size: 2em;
-  }
-  h2 {
-    width: 100%;
-    font-size: 1.8em;
-  }
-  h3 {
-    width: 100%;
-    font-size: 2em;
-  }
-  h6 {
-    width: 100%;
-    font-size: 1.5em;
-  }
-}
-/* navtop */
-.navtop {
-  font-size: 3em;
-}
-
-/* navfooter */
-.navfooter {
-  text-align: right;
-  background-color: aqua;
-  font-size: 1em;
 }
 
 /* tarjetas con nesting*/
@@ -155,6 +147,43 @@ p {
 
 .margin {
   margin: 250px;
+}
+
+@media (max-width: 800px) {
+  .tarjeta {
+    width: 100%;
+    margin: auto;
+  }
+  h1 {
+    width: 100%;
+    font-size: 2em;
+  }
+  h2 {
+    width: 100%;
+    font-size: 1.8em;
+  }
+  h3 {
+    width: 100%;
+    font-size: 2em;
+  }
+  h6 {
+    width: 100%;
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 600px) {
+  .tarjeta {
+    width: 50%;
+    display: block;
+    margin: auto;
+  }
+  .tarjeta img {
+    width: 100%;
+  }
+  .box {
+    width: 100%;
+    margin-bottom: 4%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

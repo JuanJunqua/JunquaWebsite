@@ -1,0 +1,34 @@
+
+
+/* maps */
+
+@mixin textos ($size, $color, $aling) {
+    @if $aling == center {text-align: center}
+    @else if $aling == left {text-aling: left}
+    @else if $aling == right {text-aling: right} 
+}
+
+
+
+        
+
+
+/* paleta de colores  */
+
+$paleta:(
+
+'uno': white,
+'dos': black,
+'tres': turquoise,
+'cuatro': rgb(232, 234, 225),
+'cinco': chocolate,
+'seis': magenta,
+'siete': crimson,
+'ocho': rgb(7, 7, 7),
+'nueve': blue,
+'diez': aqua,
+'once': lightcoral,
+'doce':  rgba(255, 166, 0, 0.466),
+
+)
+
