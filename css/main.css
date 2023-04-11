@@ -14,26 +14,37 @@ body {
   background-color: rgb(232, 234, 225);
 }
 
-h1 {
+.tituloprincipal {
   color: chocolate;
   font-size: 4em;
   font-family: "Roboto Serif", serif;
   font-weight: 500px;
   padding: 100px;
+  text-align: center;
 }
 
-h2 {
+.introduccion {
   color: magenta;
   font-size: 3em;
   font-family: "Roboto Serif", serif;
   font-weight: 400;
   padding: 50px;
+  text-align: center;
 }
 
-h3 {
+.pdeintroduccion {
+  font-size: 1;
+  color: rgb(14, 2, 48);
+  font-weight: 600;
+  text-align: center;
+  font-family: sans-serif;
+  line-height: 2em;
+  padding: 50px;
+}
+
+.ofertas {
   color: rgb(7, 7, 7);
   font-size: 5em;
-  font-family: "Roboto Serif", serif;
   font-weight: 400;
   padding: 50px;
   font-weight: bolder;
@@ -41,21 +52,54 @@ h3 {
   text-align: center;
 }
 
-h6 {
+.productos {
+  color: chocolate;
+  font-size: 4em;
+  font-family: "Roboto Serif", serif;
+  font-weight: 500px;
+  padding: 100px;
+  text-align: center;
+}
+
+.nosotros {
+  color: chocolate;
+  font-size: 4em;
+  font-family: "Roboto Serif", serif;
+  font-weight: 500px;
+  padding: 100px;
+  text-align: center;
+}
+
+.nuestroslocales {
+  color: chocolate;
+  font-size: 4em;
+  font-family: "Roboto Serif", serif;
+  font-weight: 500px;
+  padding: 100px;
+  text-align: center;
+}
+
+.locales {
+  color: rgba(255, 166, 0, 0.466);
+  font-size: 3em;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.contacto {
+  color: chocolate;
+  font-size: 4em;
+  font-family: "Roboto Serif", serif;
+  font-weight: 500px;
+  padding: 100px;
+  text-align: center;
+}
+
+.chovai {
   text-align: center;
   font-size: 3em;
   color: blue;
   font-weight: 700;
   background-color: rgb(185, 179, 168);
-}
-
-p {
-  color: crimson;
-  font-size: 1.5em;
-  font-family: "Roboto Serif", serif;
-  font-weight: 400;
-  line-height: 2em;
-  padding: 50px;
 }
 
 form {
@@ -80,7 +124,10 @@ footer {
   text-align: right;
 }
 
-/* resoluciones de celular */
+.separacion {
+  padding: 300px;
+}
+
 /* navtop */
 .navtop {
   font-size: 3em;
@@ -115,8 +162,7 @@ footer {
   margin: 30px auto;
   gap: 50px;
 }
-
-.box {
+.tarjeta .box {
   width: 32%;
   height: auto;
   border: 1px solid #ccc;
@@ -126,13 +172,21 @@ footer {
   transition: 0.9;
   background-color: lightcoral;
 }
-
-.box:hover {
+.tarjeta .box p {
+  font-size: 1;
+  color: rgb(3, 0, 9);
+  font-weight: 600;
+  text-align: center;
+  font-family: sans-serif;
+  line-height: 2em;
+  padding: 50px;
+  padding: 0 5px;
+}
+.tarjeta .box:hover {
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.5);
   cursor: pointer;
 }
-
-.comprarahora {
+.tarjeta .comprarahora {
   background-color: turquoise;
   font-weight: bold;
   font-size: 1em;
@@ -140,38 +194,18 @@ footer {
   border-radius: 30px;
 }
 
-p {
-  font-size: 15px;
-  padding: 0 5px;
-}
-
 .margin {
   margin: 250px;
 }
 
-@media (max-width: 800px) {
-  .tarjeta {
-    width: 100%;
-    margin: auto;
+/* resoluciones de cel */
+@media (max-width: 400px) {
+  .productos {
+    margin: -50px;
   }
-  h1 {
-    width: 100%;
-    font-size: 2em;
+  .tituloprincipal {
+    margin: -50px;
   }
-  h2 {
-    width: 100%;
-    font-size: 1.8em;
-  }
-  h3 {
-    width: 100%;
-    font-size: 2em;
-  }
-  h6 {
-    width: 100%;
-    font-size: 1.5em;
-  }
-}
-@media (max-width: 600px) {
   .tarjeta {
     width: 50%;
     display: block;
@@ -180,10 +214,13 @@ p {
   .tarjeta img {
     width: 100%;
   }
-  .box {
+  .tarjeta .box {
     width: 100%;
     margin-bottom: 4%;
   }
+}
+.tituloprincipal {
+  margin: -50px;
 }
 
 /*# sourceMappingURL=main.css.map */

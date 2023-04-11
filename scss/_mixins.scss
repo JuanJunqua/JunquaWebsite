@@ -2,15 +2,24 @@
 
 /* maps */
 
-@mixin textos ($size, $color, $aling) {
-    @if $aling == center {text-align: center}
-    @else if $aling == left {text-aling: left}
-    @else if $aling == right {text-aling: right} 
+@mixin textos ($size, $color, $weight) {
+    font-size: $size;
+    color: $color;
+    font-weight: $weight;
+    text-align: center;
+    font-family: sans-serif;           
+    line-height: 2em;
+    padding: 50px;
+       
+   
 }
 
 
 
-        
+
+
+   
+
 
 
 /* paleta de colores  */
@@ -29,6 +38,7 @@ $paleta:(
 'diez': aqua,
 'once': lightcoral,
 'doce':  rgba(255, 166, 0, 0.466),
-
+'trece': #fff,
+'catorce': aqua,
 )
 

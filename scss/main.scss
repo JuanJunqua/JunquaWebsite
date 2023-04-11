@@ -6,26 +6,23 @@
 @import "_nav";
 @import "_productos";
 
+/* resoluciones de cel */
 
-@media (max-width: 800px){
-    .tarjeta{
-        width: 100%;
-        margin: auto;
+
+
+
+
+@media (max-width: 400px){
+
+
+    .productos{
+        margin: -50px;    
     }
 
-
-
-    h1{ width: 100%;
-    font-size: 2em;}
-    h2{ width: 100%;
-        font-size: 1.8em;}
-    h3{ width: 100%;
-            font-size: 2em;}
-    h6{width:100%;
-        font-size: 1.5em}
-        }
-
-@media (max-width: 600px){
+    .tituloprincipal{
+        margin: -50px;
+              
+    }
             .tarjeta{
                 width: 50%;
                 display: block;
@@ -35,9 +32,18 @@
             .tarjeta img{
                 width: 100%;
             }
-            .box{
+            .tarjeta .box{
                 width: 100%;
                 margin-bottom: 4%;
             }
         }
-        
+            
+          
+
+            .tituloprincipal{
+                margin: -50px;
+                      
+            }
+            
+           
+                   
