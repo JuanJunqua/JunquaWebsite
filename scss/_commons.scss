@@ -136,3 +136,13 @@ footer{
     padding: 300px;
 }
 
+
+.pdehistoria{
+    @include historia(3em,rgb(19, 1, 19),400px);
+    text-align: left;
+    
+}
+
+.parabajo{
+    padding-bottom: 500px;
+}

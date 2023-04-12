@@ -102,6 +102,11 @@ body {
   background-color: rgb(185, 179, 168);
 }
 
+.icon {
+  text-decoration: none;
+  list-style: none;
+}
+
 form {
   padding: 50px;
   font-size: 1.5em;
@@ -126,6 +131,17 @@ footer {
 
 .separacion {
   padding: 300px;
+}
+
+.pdehistoria {
+  font-size: 3em;
+  color: rgb(19, 1, 19);
+  padding-bottom: 400px;
+  text-align: left;
+}
+
+.parabajo {
+  padding-bottom: 500px;
 }
 
 /* navtop */
