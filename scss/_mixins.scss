@@ -1,6 +1,6 @@
 
 
-/* maps */
+
 
 @mixin textos ($size, $color, $weight) {
     font-size: $size;
@@ -21,7 +21,14 @@
     padding-bottom:$paddingb;
 }
 
-
+@mixin cosas{
+    color:map-get($map: $paleta, $key: 'cinco' );
+    font-size: $textLg;
+    font-family: 'Roboto Serif', serif;
+    font-weight: 500px;    
+    padding: 100px;
+    text-align: center;
+}
 
 
    

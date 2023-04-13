@@ -1,16 +1,28 @@
-/* titulos */
 
 
+/* global */
 
 html {
     font-size: 100%;
 }
 
 body{
-    background-color: map-get($map: $paleta, $key: 'cuatro' );
+    background-color: $mainColor;
 }
 
+form{
 
+    padding: 50px;
+    font-size: $textSm;
+}
+
+footer{
+
+    background-color:  map-get($map: $paleta, $key: 'catorce' );
+    padding: 100px;
+}
+
+/* clases */
 
 
 .tituloprincipal{
@@ -33,7 +45,7 @@ body{
 }
 
 .pdeintroduccion{
-    @include textos(1,rgb(14, 2, 48),600 )
+    @include textos(2em,rgb(222, 10, 10),900)
     }   
 
 .ofertas{
@@ -47,30 +59,15 @@ body{
 }
 
 .productos{
-    color:map-get($map: $paleta, $key: 'cinco' );
-    font-size: $textLg;
-    font-family: 'Roboto Serif', serif;
-    font-weight: 500px;    
-    padding: 100px;
-    text-align: center;
+    @include cosas;
 }
 
 .nosotros{
-    color:map-get($map: $paleta, $key: 'cinco' );
-    font-size: $textLg;
-    font-family: 'Roboto Serif', serif;
-    font-weight: 500px;    
-    padding: 100px;
-    text-align: center;
+    @include cosas;
 }
 
 .nuestroslocales{
-    color:map-get($map: $paleta, $key: 'cinco' );
-    font-size: $textLg;
-    font-family: 'Roboto Serif', serif;
-    font-weight: 500px;    
-    padding: 100px;
-    text-align: center;
+    @include cosas;
 }
 
 .locales{
@@ -103,19 +100,11 @@ body{
     list-style: none;
 }
 
-
-
-form{
-
-    padding: 50px;
-    font-size: $textSm;
+.color{
+    color: rgb(255, 127, 127);
 }
 
-footer{
 
-    background-color:  map-get($map: $paleta, $key: 'catorce' );
-    padding: 100px;
-}
 
 
 .text-left{

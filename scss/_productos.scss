@@ -12,7 +12,7 @@
         height: auto;
         border: 1px solid #ccc;
         margin-right: 1%;
-        background: white;
+        background: map-get($map: $paleta, $key: 'uno');
         border-radius: 30px;
         transition: 0.9;
         background-color: $productos;

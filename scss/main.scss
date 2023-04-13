@@ -5,38 +5,16 @@
 @import "_commons";
 @import "_nav";
 @import "_productos";
-
-/* resoluciones de cel */
-
+@import "_breakpoints";
 
 
 
 
-@media (max-width: 400px){
 
 
-    .productos{
-        margin: -50px;    
-    }
 
-    .tituloprincipal{
-        margin: -50px;
-              
-    }
-            .tarjeta{
-                width: 50%;
-                display: block;
-                margin: auto;
-            }
-        
-            .tarjeta img{
-                width: 100%;
-            }
-            .tarjeta .box{
-                width: 100%;
-                margin-bottom: 4%;
-            }
-        }
+
+
             
           
 

@@ -3,9 +3,8 @@
 /* variales globales */
 /* colores */
 /* fonts */
-/* maps */
 /* paleta de colores  */
-/* titulos */
+/* global */
 html {
   font-size: 100%;
 }
@@ -14,6 +13,17 @@ body {
   background-color: rgb(232, 234, 225);
 }
 
+form {
+  padding: 50px;
+  font-size: 1.5em;
+}
+
+footer {
+  background-color: aqua;
+  padding: 100px;
+}
+
+/* clases */
 .tituloprincipal {
   color: chocolate;
   font-size: 4em;
@@ -33,9 +43,9 @@ body {
 }
 
 .pdeintroduccion {
-  font-size: 1;
-  color: rgb(14, 2, 48);
-  font-weight: 600;
+  font-size: 2em;
+  color: rgb(222, 10, 10);
+  font-weight: 900;
   text-align: center;
   font-family: sans-serif;
   line-height: 2em;
@@ -107,14 +117,8 @@ body {
   list-style: none;
 }
 
-form {
-  padding: 50px;
-  font-size: 1.5em;
-}
-
-footer {
-  background-color: aqua;
-  padding: 100px;
+.color {
+  color: rgb(255, 127, 127);
 }
 
 .text-left {
@@ -214,7 +218,6 @@ footer {
   margin: 250px;
 }
 
-/* resoluciones de cel */
 @media (max-width: 400px) {
   .productos {
     margin: -50px;
