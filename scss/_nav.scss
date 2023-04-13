@@ -12,6 +12,8 @@
     text-align: right;
     background-color: map-get($map: $paleta, $key: 'catorce' );
     font-size: 1em;
+    list-style-type: none;
+    display: inline-flexbox
 }
 
 /* boton de subir  */

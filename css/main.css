@@ -148,6 +148,10 @@ footer {
   padding-bottom: 500px;
 }
 
+.iconosdelfooter {
+  text-decoration: none;
+}
+
 /* navtop */
 .navtop {
   font-size: 3em;
@@ -158,6 +162,8 @@ footer {
   text-align: right;
   background-color: aqua;
   font-size: 1em;
+  list-style-type: none;
+  display: inline-flexbox;
 }
 
 /* boton de subir  */
@@ -218,11 +224,21 @@ footer {
   margin: 250px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
+  .nosotros {
+    margin: -50px;
+    font-size: 3em;
+  }
   .productos {
     margin: -50px;
+    font-size: 3em;
   }
   .tituloprincipal {
+    margin: -50px;
+    font-size: 3em;
+  }
+  .nuestroslocales {
+    font-size: 3em;
     margin: -50px;
   }
   .tarjeta {
