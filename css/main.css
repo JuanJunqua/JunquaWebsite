@@ -152,9 +152,34 @@ footer {
   text-decoration: none;
 }
 
+.button404 {
+  border-radius: 20px;
+  color: rgb(36, 16, 16);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  background-color: rgb(131, 136, 87);
+}
+
 /* navtop */
 .navtop {
-  font-size: 3em;
+  font-size: 1.5em;
+  font-family: sans-serif;
+}
+
+/* buscador de BS */
+.buscador button {
+  background-color: bisque;
+  color: brown;
+  border-color: black;
+}
+.buscador :hover {
+  background-color: rgb(109, 104, 166);
+  color: rgb(241, 14, 14);
 }
 
 /* navfooter */
@@ -224,7 +249,11 @@ footer {
   margin: 250px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
+  .contacto {
+    margin: -50px;
+    font-size: 3em;
+  }
   .nosotros {
     margin: -50px;
     font-size: 3em;
@@ -238,8 +267,8 @@ footer {
     font-size: 3em;
   }
   .nuestroslocales {
-    font-size: 3em;
     margin: -50px;
+    font-size: 3em;
   }
   .tarjeta {
     width: 50%;

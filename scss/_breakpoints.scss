@@ -1,24 +1,25 @@
-@media (max-width: 500px){
+@media (max-width: 400px){
+
+    .contacto{
+        @include bptitulos;
+    }
     
     .nosotros{
-        margin: -50px; 
-        font-size: 3em;
+        @include bptitulos;
     }
 
     .productos{
-        margin: -50px; 
-        font-size: 3em;   
+        @include bptitulos  
     }
 
     .tituloprincipal{
-        margin: -50px;
-        font-size: 3em;      
+        @include bptitulos      
     }
 
     .nuestroslocales{
-        font-size: 3em;
-        margin: -50px;
+        @include bptitulos
     }
+
             .tarjeta{
                 width: 50%;
                 display: block;

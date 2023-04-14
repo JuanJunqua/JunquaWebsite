@@ -31,7 +31,10 @@
 }
 
 
-   
+@mixin bptitulos{
+    margin: -50px; 
+    font-size: $textMd;
+}  
 
 
 

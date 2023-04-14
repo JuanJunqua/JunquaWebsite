@@ -2,9 +2,30 @@
 
 .navtop{
 
-    font-size: 3em;
+    font-size: $textSm;
+    font-family: sans-serif;
+   
+    
     
 }
+
+/* buscador de BS */
+
+.buscador{
+    
+    button{
+        background-color: bisque;
+        color: brown;
+        border-color: black;
+    }
+    
+    :hover{
+        background-color: rgb(109, 104, 166);
+        color: rgb(241, 14, 14);
+    }
+}
+
+
 
 /* navfooter */
 
