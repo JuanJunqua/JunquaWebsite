@@ -157,7 +157,36 @@ footer{
     }
 
 .footertext{
-    padding-top: 50px;
+    padding-top: 100px;
     text-align: left;
-    font-size: $textSm;
+    font-size: $textchiquito;
+    text-align: center;
 }
+
+.ayuda{
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.preguntas{
+    text-align: left;
+    font-size: 1em;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.arrepentimiento{
+    text-align: left;
+    font-size: 1em;
+    font-weight: 400;
+    text-decoration: none;
+    
+}
+
+.listafooter{
+    list-style-type: none;
+    text-decoration: none;
+}
+

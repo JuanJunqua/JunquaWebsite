@@ -165,9 +165,36 @@ footer {
 }
 
 .footertext {
-  padding-top: 50px;
+  padding-top: 100px;
+  text-align: left;
+  font-size: 1em;
+  text-align: center;
+}
+
+.ayuda {
   text-align: left;
   font-size: 1.5em;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.preguntas {
+  text-align: left;
+  font-size: 1em;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.arrepentimiento {
+  text-align: left;
+  font-size: 1em;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.listafooter {
+  list-style-type: none;
+  text-decoration: none;
 }
 
 /* navtop */
@@ -193,7 +220,6 @@ footer {
   background-color: aqua;
   font-size: 1em;
   list-style-type: none;
-  display: inline-flexbox;
 }
 
 /* boton de subir  */
@@ -218,7 +244,7 @@ footer {
   grid-template-rows: 1fr 1fr 1fr;
 }
 
-.box {
+.box2 {
   text-align: center;
 }
 
@@ -287,6 +313,7 @@ footer {
     margin: -50px;
     font-size: 3em;
   }
+  /* productos */
   .tarjeta {
     width: 50%;
     display: block;

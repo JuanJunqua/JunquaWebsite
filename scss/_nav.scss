@@ -4,6 +4,7 @@
 
     font-size: $textSm;
     font-family: sans-serif;
+
    
     
     
@@ -34,7 +35,7 @@
     background-color: map-get($map: $paleta, $key: 'catorce' );
     font-size: 1em;
     list-style-type: none;
-    display: inline-flexbox
+    
 }
 
 /* boton de subir  */
@@ -55,15 +56,16 @@
 
 
 /* footer con grids */
-.grid {
+.grid{
     display: grid;
     grid-gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    
   }
   
  
-.box {
+.box2 {
     
     text-align: center;
     
