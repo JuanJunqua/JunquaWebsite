@@ -55,3 +55,23 @@
           
         }
 }
+
+@media (max-width: 850px) and (min-width: 400px){
+
+
+    .tarjeta{
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
+
+    .tarjeta img{
+        width: 100%;
+    }
+    .tarjeta .box{
+        width: 100%;
+        margin-bottom: 4%;
+    }
+
+}
+
