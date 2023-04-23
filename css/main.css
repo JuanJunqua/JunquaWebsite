@@ -11,7 +11,6 @@ html {
 
 body {
   background-color: rgb(232, 234, 225);
-  overflow-x: hidden;
 }
 
 form {
@@ -172,7 +171,6 @@ footer {
 }
 
 .ayuda {
-  text-align: left;
   font-size: 1.5em;
   font-weight: 700;
   text-decoration: none;
@@ -195,6 +193,37 @@ footer {
 .listafooter {
   list-style-type: none;
   text-decoration: none;
+}
+
+.padding {
+  padding: 50px;
+}
+
+/* cosas de formulario */
+input[type=submit],
+input[type=reset] {
+  border: none;
+  border-radius: 3px;
+  color: #dc0a0a;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+}
+
+input[type=submit] {
+  background-color: #2fff00;
+  border-radius: 10px;
+}
+
+input[type=reset] {
+  background-color: #2fff00;
+  margin-right: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bolder;
+  margin-bottom: 5px;
 }
 
 /* navtop */
@@ -251,7 +280,7 @@ footer {
 /* tarjetas con nesting*/
 .tarjeta {
   display: flex;
-  width: 920px;
+  max-width: 100%;
   height: auto;
   margin: 30px auto;
   gap: 50px;
@@ -288,6 +317,46 @@ footer {
   border-radius: 30px;
 }
 
+/* ofertas */
+.tarjetaofertas {
+  display: flex;
+  max-width: 60%;
+  height: auto;
+  margin: 30px auto;
+  gap: 50px;
+}
+.tarjetaofertas .box {
+  width: 32%;
+  height: auto;
+  border: 1px solid #ccc;
+  margin-right: 1%;
+  background: white;
+  border-radius: 30px;
+  transition: 0.9;
+  background-color: lightcoral;
+}
+.tarjetaofertas .box p {
+  font-size: 1;
+  color: rgb(3, 0, 9);
+  font-weight: 600;
+  text-align: center;
+  font-family: sans-serif;
+  line-height: 2em;
+  padding: 50px;
+  padding: 0 5px;
+}
+.tarjetaofertas .box:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.5);
+  cursor: pointer;
+}
+.tarjetaofertas .comprarahora {
+  background-color: turquoise;
+  font-weight: bold;
+  font-size: 1em;
+  margin: 30px;
+  border-radius: 30px;
+}
+
 .margin {
   margin: 250px;
 }
@@ -314,6 +383,18 @@ footer {
     font-size: 3em;
   }
   /* productos */
+  .tarjetaofertas {
+    width: 50%;
+    display: block;
+    margin: auto;
+  }
+  .tarjetaofertas img {
+    width: 100%;
+  }
+  .tarjetaofertas .box {
+    width: 100%;
+    margin-bottom: 4%;
+  }
   .tarjeta {
     width: 50%;
     display: block;
@@ -330,12 +411,14 @@ footer {
   .grid {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
-    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
   }
   .grid form {
     width: 33%;
     font-size: 0.8em;
+  }
+  .formulario {
+    width: 100%;
   }
 }
 @media (max-width: 850px) and (min-width: 400px) {
@@ -350,6 +433,41 @@ footer {
   .tarjeta .box {
     width: 100%;
     margin-bottom: 4%;
+  }
+  .tarjetaofertas {
+    width: 100%;
+    display: flex;
+    margin: auto;
+  }
+  .tarjetaofertas img {
+    width: 100%;
+  }
+  .tarjetaofertas .box {
+    margin-bottom: 5em;
+  }
+}
+@media (min-width: 850px) {
+  .tarjeta {
+    width: 100%;
+    display: flex;
+    margin: auto;
+  }
+  .tarjeta img {
+    width: 100%;
+  }
+  .tarjeta .box {
+    margin-bottom: 5em;
+  }
+  .tarjetaofertas {
+    width: 100%;
+    display: flex;
+    margin: auto;
+  }
+  .tarjetaofertas img {
+    width: 100%;
+  }
+  .tarjetaofertas .box {
+    margin-bottom: 5em;
   }
 }
 

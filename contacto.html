@@ -87,34 +87,35 @@
 
 <!-- formulario -->
 
-  <form class="parabajo">
-        <div>
-            <label for="name">Nombre y apellido</label>
-        </div>
-            <input type="text" id="name">      
-        <div>
-            <label for="email">Email</label>
-        </div>
-            <input type="text" id="email">
+<form class="parabajo formulario">
+  <div>
+    <label for="name">Nombre y Apellido</label>
+  </div>
+  <input type="text" id="name" name="name" required>
+  
+  <div>
+    <label for="email">Email</label>
+  </div>
+  <input type="email" id="email" name="email" required>
+  
+  <div>
+    <label for="phone">Telefono</label>
+  </div>
+  <input type="tel" id="phone" name="phone" required>
+  
+  <div>
+    <label for="message">Mensaje</label>
+  </div>
+  <textarea id="message" name="message" rows="10" cols="30" required></textarea>
+  
+  <div>
+    <input type="reset" value="Limpiar">
+    <input type="submit" value="Enviar">
+  </div>
+</form>
 
-        <div>
-            <label for="telefono">Telefono</label>
-        </div>
-            <input type="text" id="phone">
 
-        <div>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-            <input type="reset" value=limpiar>
- 			<input type="submit" value="enviar">
-
-        </div>
-
-
-  </form>
-
-
-
-  <!-- empieza footer con grid -->
+ <!-- empieza footer con grid -->
 
 <footer>
   

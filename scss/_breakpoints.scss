@@ -23,6 +23,20 @@
 
 
  /* productos */   
+            .tarjetaofertas{
+                width: 50%;
+                display: block;
+                margin: auto;
+            }
+        
+            .tarjetaofertas img{
+                width: 100%;
+            }
+            .tarjetaofertas .box{
+                width: 100%;
+                margin-bottom: 4%;
+            }
+          
             .tarjeta{
                 width: 50%;
                 display: block;
@@ -36,15 +50,13 @@
                 width: 100%;
                 margin-bottom: 4%;
             }
-          
-        
 /* footer */
 
 
 .grid {
             grid-template-columns: repeat(3, 1fr);
             grid-gap: 10px;
-            grid-template-columns: 1fr 1fr 1fr;
+            
             grid-template-rows: 1fr 1fr 1fr;
             
           form{
@@ -54,7 +66,12 @@
           }
           
         }
+.formulario{
+            width: 100%;
+        }
 }
+
+
 
 @media (max-width: 850px) and (min-width: 400px){
 
@@ -73,5 +90,63 @@
         margin-bottom: 4%;
     }
 
+    .tarjetaofertas {
+        width: 100%;
+        display: flex;
+        margin: auto;
+          
+     
+    
+       
+      }
+      
+      .tarjetaofertas img {
+        width: 100%;
+      }
+      
+      .tarjetaofertas .box {
+        margin-bottom: 5em;
+      }
 }
 
+
+
+  @media (min-width: 850px) {
+
+    .tarjeta {
+        width: 100%;
+        display: flex;
+        margin: auto;
+          
+     
+    
+       
+      }
+      
+      .tarjeta img {
+        width: 100%;
+      }
+      
+      .tarjeta .box {
+        margin-bottom: 5em;
+      }
+
+      .tarjetaofertas {
+        width: 100%;
+        display: flex;
+        margin: auto;
+          
+     
+    
+       
+      }
+      
+      .tarjetaofertas img {
+        width: 100%;
+      }
+      
+      .tarjetaofertas .box {
+        margin-bottom: 5em;
+      }
+    }
+  
