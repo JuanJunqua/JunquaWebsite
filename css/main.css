@@ -432,17 +432,19 @@ label {
   }
   .tarjeta .box {
     width: 100%;
-    margin-bottom: 4%;
+    margin-bottom: 5em;
   }
+  /* ofertas */
   .tarjetaofertas {
-    width: 100%;
-    display: flex;
+    width: 50%;
+    display: block;
     margin: auto;
   }
   .tarjetaofertas img {
     width: 100%;
   }
   .tarjetaofertas .box {
+    width: 100%;
     margin-bottom: 5em;
   }
 }
@@ -458,6 +460,7 @@ label {
   .tarjeta .box {
     margin-bottom: 5em;
   }
+  /* ofertas */
   .tarjetaofertas {
     width: 100%;
     display: flex;

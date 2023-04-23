@@ -14,7 +14,7 @@
     }
 
     .tituloprincipal{
-        @include bptitulos      
+         @include bptitulos      
     }
 
     .nuestroslocales{
@@ -54,10 +54,11 @@
 
 
 .grid {
-            grid-template-columns: repeat(3, 1fr);
-            grid-gap: 10px;
-            
-            grid-template-rows: 1fr 1fr 1fr;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto auto;
+
             
           form{
             width: 33%;
@@ -80,6 +81,7 @@
         width: 50%;
         display: block;
         margin: auto;
+       
     }
 
     .tarjeta img{
@@ -87,12 +89,14 @@
     }
     .tarjeta .box{
         width: 100%;
-        margin-bottom: 4%;
+        margin-bottom: 5em;
+
     }
 
+/* ofertas */
     .tarjetaofertas {
-        width: 100%;
-        display: flex;
+        width: 50%;
+        display: block;
         margin: auto;
           
      
@@ -104,9 +108,11 @@
         width: 100%;
       }
       
-      .tarjetaofertas .box {
+      .tarjetaofertas .box{
+        width: 100%;
         margin-bottom: 5em;
-      }
+
+    }
 }
 
 
@@ -131,6 +137,8 @@
         margin-bottom: 5em;
       }
 
+/* ofertas */
+
       .tarjetaofertas {
         width: 100%;
         display: flex;
@@ -148,5 +156,5 @@
       .tarjetaofertas .box {
         margin-bottom: 5em;
       }
+      
     }
-  
